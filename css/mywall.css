@@ -2046,10 +2046,10 @@ h1.jprt-item-title {
   font-weight: 300;
   line-height: 1.42857143;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.36);
+  background-color: rgba(255, 255, 255, 0.36);
   background-image: none;
   border: none;
-  border-bottom: 3px solid #dec572;
+  border-bottom: 3px solid #0e0e0e;
   border-radius: 0px;
 }
 .form-control:focus {

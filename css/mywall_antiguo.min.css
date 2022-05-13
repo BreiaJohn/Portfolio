@@ -2199,7 +2199,7 @@ h1.jprt-item-title {
     font-weight: 300;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .btn-dwnld {
     background-color: #fff;
     padding: 20px 40px;

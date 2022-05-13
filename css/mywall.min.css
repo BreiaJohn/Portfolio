@@ -1707,15 +1707,15 @@ h1.jprt-item-title {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.42857143;
-  color: b;
-  background-color: rgba(222, 197, 114, 0.360784);
+  color: #000000;
+  background-color: rgb(255, 255, 255);
   background-image: none;
   border: none;
-  border-bottom: 3px solid #dec572;
+  border-bottom: 3px solid #000000;
   border-radius: 0;
 }
 .form-control:focus {
-  border-bottom: 3px solid rgb(163, 152, 152);
+  border-bottom: 3px solid rgb(255, 255, 255);
 }
 .ct-name {
   background-image: url(../img/name.png?1508011304);
@@ -1727,7 +1727,7 @@ h1.jprt-item-title {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgba(222, 197, 114, 0.360784);
+  background-color: rgb(252, 252, 252);
   padding-left: 52px;
 }
 .ct-mail {
@@ -1740,7 +1740,7 @@ h1.jprt-item-title {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgba(222, 197, 114, 0.360784);
+  background-color: rgb(251, 251, 251);
   padding-left: 52px;
 }
 .btn-ctc {
@@ -1749,8 +1749,8 @@ h1.jprt-item-title {
   margin-bottom: 0;
   margin-left: auto;
   font-size: 25px;
-  color: white;
-  background-color: #dec572;
+  color: #000000;
+  background-color: #ffffff;
   border-radius: 50px;
   padding: 15px 20px;
   display: block;
