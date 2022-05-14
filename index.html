@@ -123,9 +123,9 @@
         <img
           class="img-circle imgsus"
           alt="Breia John"
-          src="img/pic3.png" height="300" width="290"
+          src="img/pic3.png" height="300" width="250"
         />
-        <h1 class="name-boss">Breia M. John</h1>
+        <h1 class="name-boss">Breia M John</h1>
         <h2 class="main-details">Reliable. Detailed. Creative. Innovator.</h2>
         <p class="extend-details">
          I am a Full Stack Web Developer with a passion for creating beautiful and functional websites. I have a strong background in web development. I am a self-motivated, self-driven , and detail-oriented individual. I am a team player who is always willing to learn new skills and technologies.
@@ -158,12 +158,7 @@
           <div class="col-md-6" >
             <h2 class="title-main">About Me</h2>
             <p class="text-main">
-              I am a Software Developer located in Greensboro, NC. I have been
-              into technology since I was a young child. I have always been
-              great at problem solving. I Enjoyed taking things apart just to
-              try to put it back together. I have a passion for the future of
-              technology and I am excited to be apart of bringing your visions
-              to life! I am currently accepting new freelance clients as well as interesting project opportunities3
+              I am a Software Developer located in Greensboro, NC. I began to show interest in technology as a child, and it followed me into my profession, as an adult. I would say problem solving is my strongest attribute. I enjoy taking things apart just to try to put it back together. My passion for the future of technology grows more each day and I am excited to showcase my knowledge in helping your visions come to life! I am currently accepting new freelance clients as well as interesting project opportunities. 
             </p>
           </div>
           <!-- Image right about me -->
@@ -423,7 +418,7 @@ Professionally, I have been in tech for the past 4 years. I've worked for awesom
         <div class="row">
           <!-- Social Networks -->
           <div class="col-sm-12 btn-class col-md-7">
-            <a href="https://twitter.com/BreeTheGemini" class="social-ink">
+            <a href="https://twitter.com/Breia_John" class="social-ink">
               <img class="socl" src="img/twitter-icon.png" alt="twitter" />
             </a>
           
@@ -448,7 +443,7 @@ Professionally, I have been in tech for the past 4 years. I've worked for awesom
     <section id="contacto" class="full-section-three bg-contact">
       <div class="container">
         <!-- Title Contact me -->
-        <h1 class="title-ct">Contact me.</h1>
+        <h1 class="title-ct">Contact Me</h1>
 
         <p class="separator-ct"></p>
         <!-- Localization -->
@@ -466,29 +461,19 @@ Professionally, I have been in tech for the past 4 years. I've worked for awesom
       </div>
       <!-- Contact Form -->
       <article class="container cntme">
-        <form action="POST" data-netlify="true"
-          method="post"
-          action="/envato/mywall/one/send-email.php"
-          id="ContactForm"
-          name="ContactForm"
-          class="validate-form"
-        >
+        <form action="POST" data-netlify="true">
+        <div class="form-group col-md-6 col-md-offset-3">
+            <input type="text"  class="form-control ct-text"
+              name="name"
+              id="name"
+              placeholder="Name" required/>
+
+          </div>
           <!-- Form inputs -->
-          <div class="row">
+        
             <div class="form-group col-md-6 col-md-offset-3">
               <input
-                type="text" 
-                class="form-control ct-name"
-                name="name"
-                id="name"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-            <div class="form-group col-md-6 col-md-offset-3">
-              <input
-                type="email"
-                class="form-control ct-mail"
+                type="email" class="form-control ct-email"
                 name="email"
                 id="email"
                 placeholder="Email"
@@ -496,37 +481,24 @@ Professionally, I have been in tech for the past 4 years. I've worked for awesom
               />
             </div>
             <div class="form-group col-md-6 col-md-offset-3">
-              <textarea
-                class="form-control ct-message"
-                rows="6"
+              <textarea class="form-control ct-message"
                 name="message"
                 id="message"
                 placeholder="Message"
                 required
               ></textarea>
             </div>
-            <div>
+            <div class="form-group col-md-6 col-md-offset-3">
               <input type="file" name="myfile"
                 id="myfile"
-                class="form-control ct-file"
                 placeholder="Upload File">
             </div>
-            <div data-netlify-recaptcha="true"></div>
-          </div>
-          <!-- Button Send -->
-          <div class="row">
             <div class="form-group col-md-6 col-md-offset-3">
-              <div id="successmsg"></div>
-              <button
-                type="submit"
-                name="button"
-                id="button"
-                class="btn btnc2 with-br btn-ctc"
-              >
-                <span>Send Now</span>
-              </button>
+            <div data-netlify-recaptcha="true"></div>
             </div>
-          </div>
+              <ul class="actions">
+                <li><input type="submit" value="Send Message" class="button primary"></li>
+             </ul>
         </form>
       </article>
       <!-- // Contact Form -->
@@ -541,7 +513,7 @@ Professionally, I have been in tech for the past 4 years. I've worked for awesom
           <div class="col-sm-8 foo-left">
             I hope you enjoyed my portfolio.
             <br />
-         Breia John.
+         Breia John
           </div>
           <!-- Text Right -->
           <div class="col-sm-4 foo-right">
